@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1a1 (Python 3.11.3 on win32)" generated="20230504 18:37:00.386" rpa="false" schemaversion="4">
+<suite id="s1" name="Test" source="C:\Users\fylmz\OneDrive\Masaüstü\My_cypress framework\test.robot">
+<test id="s1-t1" name="Google Index" line="14">
+<kw name="Go to Google">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230504 18:37:00.648" level="INFO">Opening browser 'chrome' to base url 'https://google.com/'.</msg>
+<status status="PASS" starttime="20230504 18:37:00.647" endtime="20230504 18:37:03.826"/>
+</kw>
+<status status="PASS" starttime="20230504 18:37:00.647" endtime="20230504 18:37:03.826"/>
+</kw>
+<status status="PASS" starttime="20230504 18:37:00.646" endtime="20230504 18:37:03.827"/>
+</test>
+<status status="PASS" starttime="20230504 18:37:00.388" endtime="20230504 18:37:03.830"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
